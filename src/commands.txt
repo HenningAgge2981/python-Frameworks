@@ -1,0 +1,14 @@
+uv run streamlit run streamlit.py
+uv run python pandas.py
+uv run python flet.py
+uv run python pygame.py
+
+uv run python flask.py
+http://127.0.0.1:5000/api/aufgaben
+curl -X POST http://127.0.0.1:5000/api/aufgaben \
+  -H "Content-Type: application/json" \
+  -d "{\"titel\":\"Flask ausprobieren\"}"
+
+uv run python opencv.py
+uv run python tkinter.py
+uv run python soup.py
